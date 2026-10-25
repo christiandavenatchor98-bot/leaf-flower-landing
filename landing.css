@@ -138,6 +138,8 @@ h1, h2, h3, p { margin-top: 0; }
 .cta-actions { justify-content: center; margin-top: 23px; }
 .button-light { color: var(--forest); background: #f4f6ed; }
 .button-light:hover { background: #fff; box-shadow: 0 8px 22px rgba(0,0,0,.16); }
+.button-download { color: var(--deep); background: var(--gold); box-shadow: 0 8px 22px rgba(0,0,0,.18); }
+.button-download:hover { background: #f0c967; box-shadow: 0 11px 26px rgba(0,0,0,.23); }
 .button-cta-install { border-color: rgba(244,246,237,.3); color: #fff; background: rgba(255,255,255,.06); }
 .button-cta-install:hover { background: rgba(255,255,255,.13); }
 .platform-note { margin-top: 17px !important; font-size: .72rem !important; }
@@ -206,6 +208,10 @@ h1, h2, h3, p { margin-top: 0; }
 }
 
 @media (max-width: 380px) {
+  .site-header { width: calc(100% - 28px); gap: 10px; }
+  .brand { gap: 5px; font-size: .96rem; }
+  .brand-icon { width: 27px; height: 27px; }
+  .button-small { min-height: 38px; padding: 0 9px; font-size: .7rem; }
   .hero { padding-right: 19px; padding-left: 19px; }
   .hero-actions { align-items: stretch; flex-direction: column; }
   .hero-actions .button { width: 100%; }
